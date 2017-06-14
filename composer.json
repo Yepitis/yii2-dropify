@@ -1,0 +1,21 @@
+{
+    "name": "aprsoft/yii2-dropify",
+    "description": "yii2-dropify",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "zhangxinyu",
+            "email": "176956856@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AprSoft\\Dropify\\": ""
+        }
+    }
+}
