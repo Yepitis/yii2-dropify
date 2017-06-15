@@ -40,7 +40,7 @@ class Dropify extends InputWidget
     {
         DropifyAsset::register($this->view);
         $clientOptions = Json::encode($this->clientOptions);
-        $script = "$('" . $this->options['id'] . "').dropify(" . $clientOptions . ");";
+        $script = "$('#" . $this->options['id'] . "').dropify(" . $clientOptions . ");";
         $this->view->registerJs($script, View::POS_READY);
     }
 }
