@@ -14,7 +14,7 @@ class DropifyAsset extends AssetBundle
         'js/dropify.min.js',
     ];
     public $css = [
-        'css/dropify.min.css',
+        'css/dropify.css',
     ];
     public $depends = [
         'yii\web\YiiAsset',
