@@ -1,6 +1,6 @@
 yii2-dropify
-============
-yii2-dropify
+==================
+yii2 dropify extension
 
 Installation
 ------------
@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist aprsoft/yii2-dropify "*"
+composer require --prefer-dist aprsoft/yii2-dropify "*"
 ```
 
 or add
@@ -28,4 +28,10 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \AprSoft\Dropify\AutoloadExample::widget(); ?>```
+<?= \AprSoft\Dropify\Dropify::widget(); ?>
+```
+or    
+```php
+<?= $form->field($model, 'body')->widget(\AprSoft\Dropify\Dropify::className()) ?>
+```
+
