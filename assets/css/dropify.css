@@ -53,6 +53,7 @@
   background-image: none;
   text-align: center;
   border: 2px solid #E5E5E5;
+  border-radius: 3px;
   -webkit-transition: border-color 0.15s linear;
   transition: border-color 0.15s linear; }
   .dropify-wrapper:hover {
